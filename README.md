@@ -17,3 +17,7 @@ Launch the game
 # How to use
 
 In game, you can now quit any menu with right click.
+
+# Nexus Mod
+
+https://www.nexusmods.com/morrowind/mods/57103
