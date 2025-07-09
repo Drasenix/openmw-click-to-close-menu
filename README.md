@@ -14,7 +14,9 @@ Launch the game
 
 # How to use
 
-In game, you can now quit any menu with right click.
+Go to the Script tab in the options, select Click To Close Menu and choose the click you want to use.
+
+In game, you can now quit any menu with the click.
 
 # Nexus Mod
 
