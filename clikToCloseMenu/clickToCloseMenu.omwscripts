@@ -1,1 +1,2 @@
 PLAYER: scripts/clickToCloseMenu/player.lua
+MENU: scripts/clickToCloseMenu/settings/player.lua
