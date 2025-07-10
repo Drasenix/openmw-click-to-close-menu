@@ -4,7 +4,6 @@ local configPlayer = require('scripts.clickToCloseMenu.config.player')
 local l10n = core.l10n('clickToCloseMenu')
 
 
-local selfObject = self
 local function onMouseButtonPress(button)
    local clickNameForPreparingWeapon = l10n(configPlayer.options.s_Click)
    local clickIdEquivalent
