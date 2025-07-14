@@ -4,15 +4,15 @@ local configPlayer = require('scripts.clickToCloseMenu.config.player')
 local l10n = core.l10n('clickToCloseMenu')
 
 
-local function onMouseButtonPress(button)
-   local clickNameForPreparingWeapon = l10n(configPlayer.options.s_Click)
+local function onMouseButtonPress(button)   
+   local clickNameForClosingWindow = l10n(configPlayer.options.s_Click)
    local clickIdEquivalent
    
-   if clickNameForPreparingWeapon == "Left" then
+   if clickNameForClosingWindow == "Left" then
       clickIdEquivalent = 1
-   elseif clickNameForPreparingWeapon == "Middle" then
+   elseif clickNameForClosingWindow == "Middle" then
       clickIdEquivalent = 2
-   elseif clickNameForPreparingWeapon == "Right" then
+   elseif clickNameForClosingWindow == "Right" then
       clickIdEquivalent = 3
    else
       return
