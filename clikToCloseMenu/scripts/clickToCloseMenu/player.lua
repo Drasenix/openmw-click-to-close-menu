@@ -1,5 +1,6 @@
 local core = require('openmw.core')
 local UI = require('openmw.interfaces').UI
+local self = require('openmw.self')
 local configPlayer = require('scripts.clickToCloseMenu.config.player')
 local l10n = core.l10n('clickToCloseMenu')
 
@@ -20,7 +21,7 @@ local function onMouseButtonPress(button)
 
    local currentMode = UI.getMode()
    if button == clickIdEquivalent and currentMode ~= "Dialogue" then
-      UI.setMode()
+      self:sendEvent('SetUiMode', {})
    end      
 end
 
